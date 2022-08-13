@@ -1,10 +1,11 @@
 import './App.css';
-import { Button } from '@mui/material';
+import Navbar from './components/navbar/Navbar';
+
 
 function App() {
   return (
     <>
-      <Button>Hello World</Button>
+     <Navbar />
     </>
   );
 }
