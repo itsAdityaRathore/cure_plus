@@ -1,12 +1,15 @@
 import './App.css';
-import { Button } from '@mui/material';
+import * as React from 'react';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <Button>Hello World</Button>
+      <Navbar/>
     </>
   );
 }
 
 export default App;
+
+
