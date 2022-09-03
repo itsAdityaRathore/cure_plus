@@ -1,29 +1,43 @@
-import { AppBar, Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from '@mui/material'
-import React from 'react'
+import { AppBar, Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography, useScrollTrigger } from '@mui/material'
+import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import '../../src/App.css';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'Services', 'About', 'Contact'];
 
-export default function Navbar(props) {
+export default function Navbar() {
 
-  const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-
+  
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
 
+  const [colorChange, setColorchange] = useState(false);
+
+  const changeNavbarColor = () =>{
+
+     if(window.scrollY >= 200){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+
+  window.addEventListener('scroll', changeNavbarColor);
+
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ height:'100vh', textAlign: 'center' ,"background-image": "linear-gradient(to right top, #0575E6, #021B79)"}}>
-      <Typography variant="h6" sx={{ my: 2, color: "#1cefff" }}>
+    <Box onClick={handleDrawerToggle} sx={{ height:'100vh', textAlign: 'center' }}>
+      <Typography variant="h6" sx={{ my: 2, color: "#000000" }}>
         CurePlus
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center', color:'#fff' }}>
+            <ListItemButton sx={{ textAlign: 'center', color:'#000000' }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -32,11 +46,11 @@ export default function Navbar(props) {
     </Box>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+  // const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" sx={{ "background-image": "linear-gradient(to right, #0575E6, #021B79)" }}>
+      <AppBar component="nav" className={colorChange ? 'appbar-solid' : 'appbar-transparent'}>
         <Toolbar>
           {/* Menu Icon */}
           <IconButton
@@ -56,25 +70,24 @@ export default function Navbar(props) {
             sx={{ flexGrow: 1, 
               marginLeft: {sm :'5%',md:'5%', lg:'5%'},
               textAlign: {xs:'center', sm:'left', md:'left'}
-              ,display: { xs: 'block', sm: 'block' }, color: "#1cefff" }}
+              ,display: { xs: 'block', sm: 'block' }, color: "#EB1D36" }}
           >
-            CurePlus
+          CurePlus
           </Typography>
 
           {/* Navigation Items */}
           <Box sx={{marginRight: '5%', flexGrow:0, display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button key={item} sx={{ color: 'inherit' }}>
                 {item}
               </Button>
             ))}
           </Box>
         </Toolbar>
       </AppBar>
-
       <Box component="nav">
         <Drawer
-          container={container}
+          // container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
