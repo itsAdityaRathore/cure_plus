@@ -1,3 +1,16 @@
-.box{
-    background-color: gold;
+.contact-us-box{
+    background-color: white;
+    min-height: 10vh;
+    margin-top: -3rem;
+    position: relative;
+    box-shadow: 3px 3px 8px #0000006c;
+}
+
+.contact-us-box-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0.5rem;
+    background-color: rgb(5, 163, 0);
 }
