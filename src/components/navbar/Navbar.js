@@ -1,7 +1,7 @@
 import { AppBar, Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography, useScrollTrigger } from '@mui/material'
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import '../../src/App.css';
+import './Navbar.css';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'Services', 'About', 'Contact'];
@@ -70,10 +70,11 @@ export default function Navbar() {
             sx={{ flexGrow: 1, 
               marginLeft: {sm :'5%',md:'5%', lg:'5%'},
               textAlign: {xs:'center', sm:'left', md:'left'}
-              ,display: { xs: 'block', sm: 'block' }, color: "#EB1D36" }}
+              ,display: { xs: 'block', sm: 'block' }, color: "#05a300" }}
           >
           CurePlus
           </Typography>
+          
 
           {/* Navigation Items */}
           <Box sx={{marginRight: '5%', flexGrow:0, display: { xs: 'none', sm: 'block' } }}>
