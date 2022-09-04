@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import { StyledEngineProvider } from '@mui/material';
 import BannerImage from './components/banner_image/BannerImage';
 import ContactUs from './components/contact_us/ContactUs';
