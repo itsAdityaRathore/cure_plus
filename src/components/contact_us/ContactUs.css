@@ -1,6 +1,6 @@
 .contact-us-box {
     background-color: white;
-    min-height: 10vh;
+    min-height: fit-content;
     margin-top: -3rem;
     position: relative;
     box-shadow: 3px 3px 8px #0000006c;
@@ -10,20 +10,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: inherit;
     padding: 0.5rem;
     background-color: rgb(5, 163, 0);
 }
 
 .contact-us-box-text {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;             
     align-items: center;
-    padding: 1 8px;
-    background-color:inherit;
+    padding: 0 8px;
+    background-color: transparent;
 }
 
 .contentText{
-    height:inherit;
     width: 100%;
 }

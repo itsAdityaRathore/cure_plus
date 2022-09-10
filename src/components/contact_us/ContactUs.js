@@ -16,21 +16,28 @@ function ContactUs() {
 
         <Box flex={1} className="contact-us-box-item" >
           <PhoneInTalkOutlinedIcon sx={{ paddingRight: 1 }} />
-          Phone No. - 989898989
+          <Container className="contact-us-box-text">
+            <Typography variant='body1' className='contentText'>
+            Phone No.
+            </Typography>
+            <Typography variant='caption'>
+            +91-989898989
+            </Typography>
+          </Container>
         </Box>
         <Box flex={1} className="contact-us-box-item">
-          <AccessAlarmRoundedIcon sx={{ padding: 3 }} />
+          <AccessAlarmRoundedIcon sx={{ paddingRight: 1 }} />
           <Container className="contact-us-box-text">
             <Typography variant='body1' className='contentText'>
               Open Hours
             </Typography>
             <Typography variant='caption'>
-              9:00AM -9:00PM
+              9:00 am - 8:00 pm
             </Typography>
           </Container>
         </Box>
         <Box flex={1} className="contact-us-box-item">
-          <LocationOnOutlinedIcon sx={{ padding: 3 }} />
+          <LocationOnOutlinedIcon sx={{ paddingRight: 1 }} />
           <Container className="contact-us-box-text">
             <Typography variant='body1' className='contentText'>
               Our Address
