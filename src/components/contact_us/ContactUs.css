@@ -1,18 +1,19 @@
 .contact-us-box {
-    background-color: white;
+    background-color: transparent;
     min-height: fit-content;
     margin-top: -3rem;
     position: relative;
-    box-shadow: 3px 3px 8px #0000006c;
+    /* box-shadow: 3px 3px 8px #0000006c; */
 }
 
 .contact-us-box-item {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     height: inherit;
     padding: 0.5rem;
-    background-color: rgb(5, 163, 0);
+    box-shadow: 3px 3px 10px #0000006c;
 }
 
 .contact-us-box-text {
