@@ -1,16 +1,30 @@
-.contact-us-box{
-    background-color: white;
-    min-height: 10vh;
+.contact-us-box {
+    background-color: transparent;
+    min-height: fit-content;
     margin-top: -3rem;
     position: relative;
-    box-shadow: 3px 3px 8px #0000006c;
+    /* box-shadow: 3px 3px 8px #0000006c; */
 }
 
-.contact-us-box-item{
+.contact-us-box-item {
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: inherit;
     padding: 0.5rem;
+    box-shadow: 3px 3px 10px #0000006c;
+}
+
+.contact-us-box-text {
+    display: flex;
+    flex-wrap: wrap;             
+    align-items: center;
+    padding: 0 8px;
+    background-color: transparent;
+}
+
+.contentText{
+    width: 100%;
     background-color: #05a300;
 }
