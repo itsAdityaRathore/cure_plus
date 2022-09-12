@@ -1,24 +1,24 @@
 .contact-us-box {
     background-color: transparent;
-    min-height: fit-content;
+    min-height: 10vh;
     margin-top: -3rem;
     position: relative;
+    width: 80vw;
     /* box-shadow: 3px 3px 8px #0000006c; */
 }
 
 .contact-us-box-item {
-    background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: inherit;
+    justify-content: start;
+    min-height: 10vh;
     padding: 0.5rem;
     box-shadow: 3px 3px 10px #0000006c;
 }
 
 .contact-us-box-text {
-    display: flex;
-    flex-wrap: wrap;             
+    min-height: 10vh;     
+    word-wrap: normal;  
     align-items: center;
     padding: 0 8px;
     background-color: transparent;
