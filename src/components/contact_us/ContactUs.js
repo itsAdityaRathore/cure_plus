@@ -23,7 +23,7 @@ function ContactUs() {
   return (
     <Container maxWidth='md' className="contact-us-box" sx={{
       width:{xs:'90vw', sm:'90vw', md:'80vw'},
-      marginTop:{md:'-4rem', sm:'-4rem', xs:'-.5rem'}}} >
+      marginTop:{md:'-4rem', xs:'-.5rem'}}} >
       <Stack
         direction={{ md: 'row' }}>
 
