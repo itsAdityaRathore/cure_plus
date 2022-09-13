@@ -7,7 +7,7 @@ import './ContactUs.css'
 import { green } from '@mui/material/colors';
 
 const IconBoxRound = styled(Box)({
-  margin:10,
+  margin: 10,
   alignItems: 'center',
   display: 'flex',
   justifyContent: 'center',
@@ -21,38 +21,42 @@ const IconBoxRound = styled(Box)({
 
 function ContactUs() {
   return (
-    <Container maxWidth='md' className="contact-us-box" >
+    <Container className="contact-us-box" sx={{marginTop:{md:'-4rem', sm:'-4rem'}}} >
       <Stack
-        direction={{ xs: 'column',sm:'column' , md:'row' }}
-        spacing={2}
-        sx={{ padding: 1 }}>
+        direction={{ md: 'row' }}>
 
         <Box flex={1} className="contact-us-box-item" sx={{ backgroundColor: 'white' }}>
           <IconBoxRound>
             <PhoneInTalkOutlinedIcon />
           </IconBoxRound>
           <Box className="contact-us-box-text">
-            <Typography variant='body1' className='contentText'>
+            <Typography marginBottom='3px' variant='subtitle2' fontFamily={'inherit'} color='#9e9e9e'>
               Phone No.
             </Typography>
-            <Typography variant='caption'>
-              +91-989898989
+            <Typography  variant='inherit' fontFamily={'inherit'}  color='#353535'>
+              +91-7676808586
             </Typography>
           </Box>
         </Box>
         <Box flex={1} className="contact-us-box-item"
-          sx={{ backgroundColor: '#599c2a' , color:'#fff'}}
+          sx={{ backgroundColor: '#599c2a', color: '#fff' }}
         >
-          <IconBoxRound sx={{color:'#fff', borderColor:'#ffffff55'}}>
+          <IconBoxRound sx={{ color: '#fff', borderColor: '#ffffff55' }}>
             <AccessAlarmRoundedIcon />
           </IconBoxRound>
           <Box className="contact-us-box-text" >
-            <Typography variant='body1' className='contentText'>
+            <Typography marginBottom='3px' variant='subtitle2' fontFamily={'inherit'} >
               Open Hours
             </Typography>
-            <Typography variant='caption'>
-              9:00 am - 8:00 pm
-            </Typography>
+            <Stack>
+              <Typography  variant='inherit' fontFamily={'inherit'} >
+                11:00 AM - 12:30 PM
+              </Typography>
+              <Typography v variant='inherit' fontFamily={'inherit'}>
+                5:30 AM - 8:00 PM
+              </Typography>
+            </Stack>
+
           </Box>
         </Box>
         <Box flex={1} className="contact-us-box-item" sx={{ backgroundColor: 'white' }}>
@@ -60,13 +64,12 @@ function ContactUs() {
             <LocationOnOutlinedIcon />
           </IconBoxRound>
           <Box className="contact-us-box-text">
-            <Typography variant='body1' className='contentText'>
+            <Typography marginBottom='3px'  variant='subtitle2' fontFamily={'inherit'} color='#9e9e9e'>
               Our Address
             </Typography>
-            <Typography variant='caption'>
-              #3037 near shaifaly public school
-              Ludhiana, Punjab
-              141007
+            <Typography variant='inherit' fontFamily={'inherit'} color='#353535'>
+              Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,
+              Chinappa Layout, Mahadevpura, Bengaluru, Karnatka - 560048
             </Typography>
           </Box>
         </Box>
