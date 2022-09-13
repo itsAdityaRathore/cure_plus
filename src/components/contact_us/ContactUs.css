@@ -1,9 +1,10 @@
 .contact-us-box {
     background-color: transparent;
     min-height: 10vh;
-    margin-top: -3rem;
+    /* margin-top: -4rem; */
     position: relative;
-    width: 80vw;
+    width: 70vw;
+    padding: 1em;
     /* box-shadow: 3px 3px 8px #0000006c; */
 }
 
@@ -24,6 +25,3 @@
     background-color: transparent;
 }
 
-.contentText{
-    width: 100%;
-}
