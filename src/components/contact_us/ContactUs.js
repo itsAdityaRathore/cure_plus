@@ -21,7 +21,9 @@ const IconBoxRound = styled(Box)({
 
 function ContactUs() {
   return (
-    <Container className="contact-us-box" sx={{marginTop:{md:'-4rem', sm:'-4rem'}}} >
+    <Container maxWidth='md' className="contact-us-box" sx={{
+      width:{xs:'90vw', sm:'90vw', md:'80vw'},
+      marginTop:{md:'-4rem', sm:'-4rem', xs:'-.5rem'}}} >
       <Stack
         direction={{ md: 'row' }}>
 
