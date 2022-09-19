@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import { StyledEngineProvider } from "@mui/material";
 import BannerImage from "./components/banner_image/BannerImage";
 import ContactUs from "./components/contact_us/ContactUs";
+import AboutUs from "./components/about_us/AboutUs";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Navbar />
       <BannerImage />
       <ContactUs />
+      <AboutUs />
+      
     </StyledEngineProvider>
   );
 }

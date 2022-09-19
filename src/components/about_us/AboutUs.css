@@ -1,0 +1,21 @@
+.about-us-box {
+    background-color: rgb(249, 249, 235, 0.01);
+    position: relative;
+    height: 100%;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+.about-us-content {
+    margin-inline-start: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: center;
+    opacity: 2;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
