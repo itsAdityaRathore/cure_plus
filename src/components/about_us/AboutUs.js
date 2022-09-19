@@ -16,7 +16,7 @@ function AboutUs() {
                     <h1>
                         Cure Plus Homeopathic Clinic - Go Green Inside
                     </h1>
-                    <h4>Don’t be nervous, thinking that your disease is incurable, Just call us and get a FREE expert advice.</h4>
+                    Don’t be nervous, thinking that your disease is incurable, Just call us and get a FREE expert advice.
                 </Box>
             </Stack>
         </Container>
