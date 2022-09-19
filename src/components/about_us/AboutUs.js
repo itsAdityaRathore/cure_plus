@@ -7,12 +7,12 @@ function AboutUs() {
     return (
         <Container className='about-us-box' sx={{ marginY: { md: "-33rem", xs: "-60rem" },color: { md: 'white', xs: 'white' } }}>
             <Stack direction={{ md: "row" }}>
-                <Box className='about-us-content' 
+                <Box className='about-us-content' display='flex'
                     sx={{}}>
                     <img className='dr-img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytX65eKyfPMKlTXg_xHv60IK5IGabz8omLg&usqp=CAU'></img>
                 </Box>
                 <Box className='about-us-content'
-                    sx={{ width:'100%',  }}>
+                    sx={{ width:'100%', justifySelf:'center' }}>
                     <h1>
                         Cure Plus Homeopathic Clinic - Go Green Inside
                     </h1>
