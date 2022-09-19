@@ -12,7 +12,7 @@ function AboutUs() {
                     <img className='dr-img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytX65eKyfPMKlTXg_xHv60IK5IGabz8omLg&usqp=CAU'></img>
                 </Box>
                 <Box className='about-us-content'
-                    sx={{backgroundColor:'lightslategray', width:'100%',  }}>
+                    sx={{ width:'100%',  }}>
                     <h1>
                         Cure Plus Homeopathic Clinic - Go Green Inside
                     </h1>
