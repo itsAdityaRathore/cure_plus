@@ -19,7 +19,7 @@ function AboutUs() {
                     <Typography variant='h6' fontFamily={'inherit'} color='#ffffff'>
                         Don’t be nervous, thinking that your disease is incurable, Just call us and get a FREE expert advice.
                     </Typography>
-                    <Typography variant='h6' fontFamily={'inherit'} color='#ffffff' sx={{wordSpacing:'8px'}}>
+                    <Typography variant='h6' fontFamily={'inherit'} color='#ffffff' sx={{ wordSpacing: '8px' }}>
                         - Go Green Inside
                     </Typography>
                 </Box>
@@ -31,3 +31,5 @@ function AboutUs() {
 
 export default AboutUs
 // https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop
+// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytX65eKyfPMKlTXg_xHv60IK5IGabz8omLg&usqp=CAU
+
