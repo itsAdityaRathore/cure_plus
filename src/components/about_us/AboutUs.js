@@ -16,7 +16,7 @@ function AboutUs() {
                     <Typography variant='h3' fontFamily={'inherit'} color='#ffffff'>
                         Cure Plus Homeopathic Clinic
                     </Typography>
-                    <Typography variant='h5' fontFamily={'inherit'} color='#ffffff'>
+                    <Typography variant='h6' fontFamily={'inherit'} color='#ffffff'>
                         Don’t be nervous, thinking that your disease is incurable, Just call us and get a FREE expert advice.
                     </Typography>
                     <Typography variant='h6' fontFamily={'inherit'} color='#ffffff' sx={{wordSpacing:'8px'}}>
