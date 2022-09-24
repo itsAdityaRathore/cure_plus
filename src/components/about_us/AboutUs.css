@@ -13,12 +13,15 @@
     justify-content: center;
     height: inherit;
     margin: 0.5rem;
-    padding: 0.5rem;    
+    padding: 0.5rem;
+    word-wrap: normal;
     font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: serif;
 }
 
 .dr-img {
     border-radius: 10%;
-    height: inherit;
+    height: 200px;
+    width: 200px;
+    align-self: center;
 }
