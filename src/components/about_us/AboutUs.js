@@ -5,7 +5,7 @@ import "./AboutUs.css"
 
 function AboutUs() {
     return (
-        <Container className='about-us-box' sx={{ marginY: { md: "-33rem", xs: "-41rem" }, color: { md: 'white', xs: 'white' } }}>
+        <Container className='about-us-box' sx={{ marginY: { md: "-27rem", xs: "-30rem" }, color: { md: 'white', xs: 'white' } }}>
             <Stack direction={{ md: "row" }} sx={{ marginY: { md: "0rem", xs: "2rem" }}}>
                 <Box className='about-us-content' display='flex'
                     sx={{}}>
@@ -13,13 +13,13 @@ function AboutUs() {
                 </Box>
                 <Box className='about-us-content about-us-text'
                     sx={{ width: '100%', justifySelf: 'center' }}>
-                    <Typography variant='h3' fontFamily={'inherit'} color='#ffffff'>
+                    <Typography sx={{typography:{md:"h4",sm:"h5",xs:"h6"}}} fontFamily={'inherit'} color='#ffffff'>
                         Cure Plus Homeopathic Clinic
                     </Typography>
-                    <Typography variant='h6' fontFamily={'inherit'} color='#ffffff'>
+                    <Typography variant="body1" fontFamily={'inherit'} color='#ffffff'>
                         Don’t be nervous, thinking that your disease is incurable, Just call us and get a FREE expert advice.
                     </Typography>
-                    <Typography variant='h6' fontFamily={'inherit'} color='#ffffff' sx={{ wordSpacing: '8px' }}>
+                    <Typography variant="body1" fontFamily={'inherit'} color='#ffffff' sx={{ wordSpacing: '8px' }}>
                         - Go Green Inside
                     </Typography>
                 </Box>

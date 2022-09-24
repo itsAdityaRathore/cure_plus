@@ -5,9 +5,9 @@ import "./BannerImage.css";
 
 function BannerImage() {
   return (
-    <Container maxWidth="false" sx={{ background: "#20b255", height: "80vh" }}>
+    <Container disableGutters="true" maxWidth="false" sx={{background: "#000", height: "80vh" }}>
       <Box
-        maxWidth="false"
+      width="100%"
         className="img"
         sx={{
           backgroundImage:
