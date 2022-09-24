@@ -1,5 +1,6 @@
 import { Box, Container } from "@mui/system";
 import React from "react";
+import AboutUs from "../about_us/AboutUs";
 import "./BannerImage.css";
 
 function BannerImage() {
@@ -13,6 +14,7 @@ function BannerImage() {
             "url( https://www.vithoulkas.com/sites/default/files/news/homeopathy-11.jpg)",
         }}
       ></Box>
+      <AboutUs />
     </Container>
   );
 }
