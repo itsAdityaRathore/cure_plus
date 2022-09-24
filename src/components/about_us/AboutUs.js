@@ -5,7 +5,7 @@ import "./AboutUs.css"
 
 function AboutUs() {
     return (
-        <Container className='about-us-box' sx={{ marginY: { md: "-27rem", xs: "-30rem" }, color: { md: 'white', xs: 'white' } }}>
+        <Container className='about-us-box' sx={{ marginY: { md: "-30rem", xs: "-35rem" }, color: { md: 'white', xs: 'white' } }}>
             <Stack direction={{ md: "row" }} sx={{ marginY: { md: "0rem", xs: "2rem" }}}>
                 <Box className='about-us-content' display='flex'
                     sx={{}}>
