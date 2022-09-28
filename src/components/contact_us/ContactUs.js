@@ -5,6 +5,7 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import React from "react";
 import "./ContactUs.css";
 import { green } from "@mui/material/colors";
+import AboutUs from "../about_us/AboutUs";
 
 const IconBoxRound = styled(Box)({
   margin: 10,
@@ -21,6 +22,8 @@ const IconBoxRound = styled(Box)({
 
 function ContactUs() {
   return (
+    <>   
+    
     <Container
       maxWidth="md"
       className="contact-us-box"
@@ -110,7 +113,9 @@ function ContactUs() {
           </Box>
         </Box>
       </Stack>
+      
     </Container>
+    </>
   );
 }
 

@@ -10,7 +10,7 @@ function App() {
     <StyledEngineProvider injectFirst>
       <Navbar />
       <BannerImage />
-      <ContactUs />
+      <ContactUs />       
     </StyledEngineProvider>
   );
 }
