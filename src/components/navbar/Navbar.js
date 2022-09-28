@@ -81,20 +81,43 @@ export default function Navbar() {
           </IconButton>
 
           {/* Website Name */}
-          <Typography
-            variant="h5"
-            component="div"
+          <Box
+            display="flex"
             sx={{
               flexGrow: 1,
-              marginLeft: { sm: "5%", md: "5%", lg: "5%" },
-              textAlign: { xs: "center", sm: "left", md: "left" },
-              display: { xs: "block", sm: "block" },
-              color: "#05a300",
+              marginLeft: {
+                xs: "2%",
+                sm: "6%",
+                md: "7%",
+                lg: "8%",
+                display: { xs: "flex", sm: "flex" },
+              },
             }}
           >
-            CurePlus
-          </Typography>
-
+            <Typography
+              display="inline"
+              variant="h5"
+              component="div"
+              sx={{
+                color: "#05a300",
+                textAlign: { xs: "center", sm: "left", md: "left" },
+              }}
+            >
+              Cure
+            </Typography>
+            <Typography
+              display="inline"
+              variant="h5"
+              component="div"
+              sx={{
+                color: "primary",
+                textAlign: { xs: "center", sm: "left", md: "left" },
+              }}
+            >
+              Plus
+            </Typography>
+          </Box>
+          
           {/* Navigation Items */}
           <Box
             sx={{
