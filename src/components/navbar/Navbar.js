@@ -9,7 +9,6 @@ import {
   ListItem,
   ListItemButton,
   ListItemText,
-  Stack,
   Toolbar,
   Typography,
   useScrollTrigger,
@@ -118,6 +117,7 @@ export default function Navbar() {
               Plus
             </Typography>
           </Box>
+          
           {/* Navigation Items */}
           <Box
             sx={{
