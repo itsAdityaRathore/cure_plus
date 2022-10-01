@@ -10,7 +10,7 @@ function Services() {
                 <Stack
                     direction={{ md: 'row', xs: 'column' }}
                 >
-                    <Box className='service-box-card' sx={{ backgroundColor: 'lightblue', }}>
+                    <Box className='service-box-card' sx={{ backgroundColor: 'green', }}>
                         Different services cards
                         {/* height for box above image */}
                         {/* <Box  sx={{ backgroundColor: 'gray', height:'50%', width:'50%' }}>
