@@ -165,8 +165,9 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Pediatrics</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              It is concerned not only about immediate management of the ill
+              child but also long term effects on quality of life, disability
+              and survival.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -190,8 +191,9 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Joints</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              If pain is interfering with normal daily life activities, it is
+              time to talk to a doctor about the problem and diagnose the cause
+              of the pain quickly.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -215,8 +217,8 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Neural</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              Structural, biochemical or electrical abnormalities in the brain,
+              spinal cord or other nerves can result in a range of symptoms.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
