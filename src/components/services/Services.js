@@ -38,8 +38,8 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Skin</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              "Whatever is the type of skin problem, it is always a cause of
+              Depression, Ebrrasasment, and social Withdrawal."
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -63,8 +63,8 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Respiratory</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              "A collection of symptoms, mostly in the nose and eyes, which
+              occur when you breath in something you are allergic to."
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -88,8 +88,9 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Digestion</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              Take all that is given whether wealth, love or language, nothing
+              comes by mistake and with good digestion all can be turned to
+              health.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -113,8 +114,8 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Gyenic</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              Female contraception, infertility and problems in early pregnancy
+              are within the province of gynaecology.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
@@ -138,8 +139,9 @@ function Services() {
             </Box>
             <h4 className="text-xl py-4">Urinary</h4>
             <p className="max-w-md mx-auto">
-              Objectively integrate enterprise-wide strategic theme areas with
-              functionalized infrastructures.
+              A urinary tract infection, commonly known as UTI is one of the
+              most common urinary problems and is an infection that occurs in
+              the urinary tract.
             </p>
             <h2 className="pt-5 text-violet-600 font-medium">+ READMORE</h2>
           </Paper>
