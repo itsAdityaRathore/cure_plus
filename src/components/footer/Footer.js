@@ -5,7 +5,7 @@ import LocalHospitalOutlinedIcon from "@mui/icons-material/LocalHospitalOutlined
 function Footer() {
   return (
     <>
-      <footer className="bg-gray-50 mt-4 p-4 text-center text-xl font-medium font-serif">
+      <footer className="bg-gray-50 mt-4 p-2 text-center text-xl font-medium font-serif">
         <span className="-mt-1"> © </span>
         <span> CurePlus </span>
         <span>
