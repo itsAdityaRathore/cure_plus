@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import { StyledEngineProvider } from "@mui/material";
 import BannerImage from "./components/banner_image/BannerImage";
 import ContactUs from "./components/contact_us/ContactUs";
-import Services from "./components/services/Services";
+import CureFor from "./components/cure_for/CureFor";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <BannerImage />
       <ContactUs />
-      <Services />       
+      <CureFor />
     </StyledEngineProvider>
   );
 }
