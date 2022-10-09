@@ -1,13 +1,15 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Paper, Typography } from "@mui/material";
 import React from "react";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import LocalHospitalOutlinedIcon from "@mui/icons-material/LocalHospitalOutlined";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
     <>
       <footer className="bg-gray-800 text-white">
-        <Box className="grid grid-col-2 gap-2 lg:grid-flow-col md:grid-flow-row px-8 py-8 mx-2">
+        <Box className="grid grid-col-2 lg:grid-flow-col md:grid-flow-row px-4 py-8 mx-2">
           <Box className="lg:w-3/5 p-4">
             <h1 className="font-semibold lg:text-3xl text-2xl">
               <span className="text-blue-500">CURE</span>PLUS
@@ -47,7 +49,34 @@ function Footer() {
               </svg>
             </Box>
           </Box>
-          <Box className="bg-green-500 lg:col-span-3 p-4">box2</Box>
+          <Box className=" lg:col-span-12 lg:w-12/12 p-4">
+            <Box className="grid lg:grid-cols-4 font-semibold lg:text-2xl">
+              <Paper
+                elevation={0}
+                className=" bg-transparent px-2  mx-2 text-white"
+              >
+                Menu
+              </Paper>
+              <Paper
+                elevation={0}
+                className=" bg-transparent px-2 mx-2 text-white"
+              >
+                Useful Link
+              </Paper>
+              <Paper
+                elevation={0}
+                className=" bg-transparent px-2 mx-2 text-white"
+              >
+                Contact
+              </Paper>
+              <Paper
+                elevation={0}
+                className=" bg-transparent px-2 mx-2 text-white"
+              >
+                Email
+              </Paper>
+            </Box>
+          </Box>
         </Box>
       </footer>
     </>
