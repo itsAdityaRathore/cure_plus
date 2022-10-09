@@ -50,28 +50,28 @@ function Footer() {
             </Box>
           </Box>
           <Box className=" lg:col-span-12 lg:w-12/12 p-4">
-            <Box className="grid lg:grid-cols-4 font-semibold lg:text-2xl">
+            <Box className="grid lg:grid-cols-4 font-semibold lg:text-2xl sm:text-lg">
               <Paper
                 elevation={0}
-                className=" bg-transparent px-2  mx-2 text-white"
+                className=" bg-red-500 px-2 mx-2 sm:m-2 text-white"
               >
                 Menu
               </Paper>
               <Paper
                 elevation={0}
-                className=" bg-transparent px-2 mx-2 text-white"
+                className=" bg-red-500 px-2 mx-2 sm:m-2 text-white"
               >
                 Useful Link
               </Paper>
               <Paper
                 elevation={0}
-                className=" bg-transparent px-2 mx-2 text-white"
+                className=" bg-red-500 px-2 mx-2 sm:m-2 text-white"
               >
                 Contact
               </Paper>
               <Paper
                 elevation={0}
-                className=" bg-transparent px-2 mx-2 text-white"
+                className=" bg-red-500 px-2 mx-2 sm:m-2 text-white"
               >
                 Email
               </Paper>
