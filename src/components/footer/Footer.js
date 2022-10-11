@@ -73,7 +73,7 @@ function Footer() {
                 elevation={0}
                 className=" bg-red-500 px-2 mx-2 sm:m-2 text-white"
               >
-                Email
+                Blog
               </Paper>
             </Box>
           </Box>
