@@ -46,19 +46,19 @@ function Footer() {
                 </Typography>
                 <h3 className="flex text-sm my-4 ">
                   <span>
-                    <MdOutlineHome className="text-xl mr-2" />
+                    <MdOutlineHome className="text-xl mr-4" />
                   </span>
                   Home
                 </h3>
                 <h3 className="flex text-sm my-4 ">
                   <span>
-                    <RiServiceLine className="text-xl mr-2" />
+                    <RiServiceLine className="text-xl mr-4" />
                   </span>
                   Services
                 </h3>
                 <h3 className="flex text-sm my-4 ">
                   <span>
-                    <MdOutlineEventNote className="text-xl mr-2" />
+                    <MdOutlineEventNote className="text-xl mr-4" />
                   </span>
                   About
                 </h3>
