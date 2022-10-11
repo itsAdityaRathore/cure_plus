@@ -1,9 +1,11 @@
 import { Box, Container, Paper, Typography } from "@mui/material";
 import React from "react";
-import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
-import LocalHospitalOutlinedIcon from "@mui/icons-material/LocalHospitalOutlined";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { MdOutlineHome } from "react-icons/md";
+import { RiServiceLine } from "react-icons/ri";
+import { MdOutlineEventNote } from "react-icons/md";
 
 const items = [
   {
@@ -39,23 +41,55 @@ function Footer() {
                 elevation={0}
                 className=" bg-transparent mx-1 lg:my-0 text-white px-2 my-1"
               >
-                <Typography className="font-semibold text-xl">MENU</Typography>
-                <Box className="text-base">Home</Box>
-                <Box className="text-base">Services</Box>
-                <Box className="text-base">About</Box>
+                <Typography className="font-semibold text-xl text-blue-500">
+                  MENU
+                </Typography>
+                <h3 className="flex text-sm my-4 ">
+                  <span>
+                    <MdOutlineHome className="text-xl mr-2" />
+                  </span>
+                  Home
+                </h3>
+                <h3 className="flex text-sm my-4 ">
+                  <span>
+                    <RiServiceLine className="text-xl mr-2" />
+                  </span>
+                  Services
+                </h3>
+                <h3 className="flex text-sm my-4 ">
+                  <span>
+                    <MdOutlineEventNote className="text-xl mr-2" />
+                  </span>
+                  About
+                </h3>
               </Paper>
 
               <Paper
                 elevation={0}
-                className=" bg-gray-500 mx-1 lg:my-0 text-white px-2 my-1 "
+                className=" bg-transparent mx-1 lg:my-0 text-white px-2 my-1 "
               >
-                <Typography className="font-semibold text-xl">
+                <Typography className="font-semibold text-xl text-blue-500">
                   CONTACT US
                 </Typography>
-                <h6 class="text-sm text-gray-100 flex">
+                <h3 className="flex text-sm my-4 ">
+                  <span>
+                    <MdOutlineLocationOn className="text-xl mr-4" />
+                  </span>
                   Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,
                   Chinappa Layout, Mahadevpura, Bengaluru, Karnatka - 560048
-                </h6>
+                </h3>
+                <h3 className="flex text-sm my-4">
+                  <span>
+                    <MdOutlineEmail className="text-xl mr-4" />
+                  </span>
+                  dr.sweetysah@gmail.com
+                </h3>
+                <h3 className="flex text-sm my-4">
+                  <span>
+                    <MdOutlinePhoneInTalk className="text-xl mr-4" />
+                  </span>
+                  dr.sweetysah@gmail.com
+                </h3>
               </Paper>
             </Box>
           </Box>
