@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <BannerImage />
       <ContactUs />
+      <CureFor />
       <Footer />
     </StyledEngineProvider>
   );
