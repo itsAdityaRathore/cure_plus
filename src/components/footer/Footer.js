@@ -3,9 +3,6 @@ import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
-import { MdOutlineHome } from "react-icons/md";
-import { RiServiceLine } from "react-icons/ri";
-import { MdOutlineEventNote } from "react-icons/md";
 
 const items = [
   {
@@ -44,24 +41,9 @@ function Footer() {
                 <Typography className="font-semibold text-xl text-blue-500">
                   MENU
                 </Typography>
-                <h3 className="flex text-sm my-4 ">
-                  <span>
-                    <MdOutlineHome className="text-xl mr-4" />
-                  </span>
-                  Home
-                </h3>
-                <h3 className="flex text-sm my-4 ">
-                  <span>
-                    <RiServiceLine className="text-xl mr-4" />
-                  </span>
-                  Services
-                </h3>
-                <h3 className="flex text-sm my-4 ">
-                  <span>
-                    <MdOutlineEventNote className="text-xl mr-4" />
-                  </span>
-                  About
-                </h3>
+                <h3 className="flex text-sm my-4 ">Home</h3>
+                <h3 className="flex text-sm my-4 ">Services</h3>
+                <h3 className="flex text-sm my-4 ">About</h3>
               </Paper>
 
               <Paper
