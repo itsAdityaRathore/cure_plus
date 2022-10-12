@@ -5,6 +5,7 @@ import { StyledEngineProvider } from "@mui/material";
 import BannerImage from "./components/banner_image/BannerImage";
 import ContactUs from "./components/contact_us/ContactUs";
 import CureFor from "./components/cure_for/CureFor";
+import AboutDr from "./components/about_dr/AboutDr";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <BannerImage />
       <ContactUs />
+      <AboutDr />
       <CureFor />
     </StyledEngineProvider>
   );
