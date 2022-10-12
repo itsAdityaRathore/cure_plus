@@ -17,12 +17,19 @@ function AboutDr() {
             elevation={0}
             className="bg-transparent py-4 px-4 my-1 md:w-12/12  md:mx-1"
           >
-            <Typography className="text-2xl font-medium my-4 px-2 text-left ">
-              About US
-            </Typography>
-            <h1 className="text-3xl text-left font-semibold">
+            <Box className="flex">
+              <img
+                className="h-20 w-15 mb-0 "
+                src="https://t3.ftcdn.net/jpg/01/34/24/46/240_F_134244635_QdTMgtjMfLQealOg6WQSEc0UaRrxSrhj.jpg"
+              />
+              <Typography className="lg:text-4xl text-left text-2xl my-auto font-bold  ">
+                About US
+              </Typography>
+            </Box>
+
+            <h3 className="lg:text-3xl text-left text-xl font-medium ">
               Welcome To Doctorate Central Hospital
-            </h1>
+            </h3>
             <p className="text-lg py-5 leading-8 text-justify">
               Our team of highly trained professionals uses the latest healing
               technologies to restore you to pain-free health quickly and
