@@ -3,6 +3,7 @@ import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { MdCopyright } from "react-icons/md";
 
 const items = [
   {
@@ -75,6 +76,14 @@ function Footer() {
               </Paper>
             </Box>
           </Box>
+        </Box>
+        <Box className="bg-gray-500 mt-1 p-2 flex justify-center">
+          <h3 className="flex text-sm mt-4 items-center">
+            <span>
+              <MdCopyright className="text-2xl mx-1" />
+            </span>
+            Copyright 2022
+          </h3>
         </Box>
       </footer>
     </>
