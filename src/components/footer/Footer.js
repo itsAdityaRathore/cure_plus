@@ -77,7 +77,7 @@ function Footer() {
             </Box>
           </Box>
         </Box>
-        <Box className="bg-gray-500 mt-1 p-2 flex justify-center">
+        <Box className="bg-transparent mt-1 p-2 flex justify-center">
           <h3 className="flex text-sm mt-4 items-center">
             <span>
               <MdCopyright className="text-2xl mx-1" />
