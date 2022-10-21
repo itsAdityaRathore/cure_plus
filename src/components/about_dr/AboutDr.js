@@ -35,7 +35,7 @@ function AboutDr() {
               technologies to restore you to pain-free health quickly and
               easily.
             </p>
-            <Paper className="bg-blue-900 rounded-md p-2 justify-center h-2/4 my-8">
+            <Paper className="bg-blue-900 rounded-md p-2 justify-center h-100 my-8">
               <Container className="grid lg:grid-cols-2 gap-2 p-2 my-5 h-5/6">
                 <Box className=" p-2 text-left text-2xl font-semibold font-sans text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
