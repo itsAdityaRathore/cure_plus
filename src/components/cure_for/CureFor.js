@@ -81,13 +81,13 @@ function CureFor() {
           rel="stylesheet"
         />
       </head>
-      <Box className="bg-slate-100  mt-20">
+      <Box className="bg-slate-100  mt-20 ">
         <Box className=" text-center pt-20 pb-8">
           <h3 className="font-medium text-3xl text-slate-700 mx-auto">
             We have cure for..
           </h3>
         </Box>
-        <Container className="p-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-0">
+        <Container className="p-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-0 pb-20">
           <CureForCard
             title={cureForlist[0].title}
             description={cureForlist[0].description}
