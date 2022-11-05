@@ -11,6 +11,7 @@ import ContactUs from "./components/contact_us/ContactUs";
 import Footer from "./components/footer/Footer";
 import CureFor from "./components/cure_for/CureFor";
 import AboutDr from "./components/about_dr/AboutDr";
+import Blog from "./components/blogs/Blog";
 import Accordion from "./components/faq/Accordion";
 import theme from "./theme/theme";
 import ContactUsBanner from "./components/banner/contact_us_banner";
@@ -44,6 +45,7 @@ function App() {
       <ContactUs />
       <AboutDr />
       <CureFor />
+      <Blog />
       <Blog />
       <Footer />
     </StyledEngineProvider>
