@@ -34,20 +34,19 @@ const questionsAnswers = [
     answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
   },
 ];
+import Blog from "./components/blogs/Blog";
+
 function App() {
   return (
-    <ThemeProvider theme={createTheme(theme)}>
-      <StyledEngineProvider injectFirst>
-        <Navbar />
-        <BannerImage />
-        <ContactUs />
-        <AboutDr />
-        <CureFor />
-        <ContactUsBanner />
-        <Accordion questionsAnswers={questionsAnswers} />
-        <Footer />
-      </StyledEngineProvider>
-    </ThemeProvider>
+    <StyledEngineProvider injectFirst>
+      <Navbar />
+      <BannerImage />
+      <ContactUs />
+      <AboutDr />
+      <CureFor />
+      <Blog />
+      <Footer />
+    </StyledEngineProvider>
   );
 }
 
