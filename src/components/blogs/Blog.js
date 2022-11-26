@@ -41,7 +41,7 @@ function Blog() {
       <h2 className="text-4xl tracking-tight leading-10  text-center">
         Welcome to my blogs section
       </h2>
-      <Box className="mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-5 lg:max-w-5xl md:max-w-3xl max-w-md mx-auto">
+      <Box className="mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-10 lg:max-w-6xl md:max-w-3xl max-w-md mx-auto">
         <PostCard
           title={blogList[0].title}
           description={blogList[0].description}
