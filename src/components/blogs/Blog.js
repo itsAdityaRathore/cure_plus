@@ -57,11 +57,6 @@ function Blog() {
           description={blogList[2].description}
           pic={blogList[2].pic}
         />
-        <PostCard
-          title={blogList[3].title}
-          description={blogList[3].description}
-          pic={blogList[3].pic}
-        />
       </Box>
     </Box>
   );
