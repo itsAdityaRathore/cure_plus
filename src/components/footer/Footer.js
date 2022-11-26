@@ -8,7 +8,7 @@ import { MdCopyright } from "react-icons/md";
 function Footer() {
   return (
     <>
-      <footer className="bg-gray-800 text-white">
+      <footer className="bg-gray-800 text-white pt-10">
         <Box className=" grid lg:grid-flow-row grid-cols-3 ">
           <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 px-1 mx-1 h-min">
             <Paper elevation={0} className=" bg-transparent px-2 py-1">
