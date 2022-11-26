@@ -81,7 +81,7 @@ function CureFor() {
           rel="stylesheet"
         />
       </head>
-      <Box className="bg-slate-100  mt-20 ">
+      <Box className="bg-slate-100">
         <Box className=" text-center pt-20 pb-8">
           <h3 className="font-medium text-3xl text-slate-700 mx-auto">
             We have cure for..
