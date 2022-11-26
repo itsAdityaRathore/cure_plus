@@ -12,11 +12,11 @@ function Footer() {
         <Box className=" grid lg:grid-flow-row grid-cols-3 ">
           <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 px-1 mx-1 h-min">
             <Paper elevation={0} className=" bg-transparent px-2 py-1">
-              <Typography className="font-semibold lg:text-3xl text-2xl">
+              <Typography className="font-semibold lg:text-xl text-base">
                 <span className="text-blue-500">CURE</span>
                 <span className="text-white">PLUS</span>
               </Typography>
-              <h5 class="text-lg mt-0 mb-2 text-gray-100">
+              <h5 class="text-base mt-0 mb-2 text-gray-100">
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
             </Paper>
@@ -26,14 +26,14 @@ function Footer() {
               elevation={0}
               className=" bg-transparent text-white py-1 px-2 "
             >
-              <Typography className="font-semibold text-2xl text-blue-500">
+              <Typography className="font-semibold text-base text-blue-500">
                 CONTACT US
               </Typography>
               <h3 className="flex text-sm my-4 ">
                 <span>
                   <MdOutlineLocationOn className="text-xl mr-4" />
                 </span>
-                <p className="max-w-sm">
+                <p className="max-w-sm text-sm">
                   Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,
                   Chinappa Layout, Mahadevpura, Bengaluru, Karnatka - 560048
                 </p>
@@ -48,7 +48,7 @@ function Footer() {
                 <span>
                   <MdOutlinePhoneInTalk className="text-xl mr-4" />
                 </span>
-                dr.sweetysah@gmail.com
+                +91-7676808586
               </h3>
             </Paper>
           </Box>
