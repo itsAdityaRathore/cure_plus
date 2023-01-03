@@ -5,7 +5,7 @@ import React from "react";
 function AboutDr() {
   return (
     <>
-      <Container maxWidth="lg" className="p-4 mt-5 md:my-10 flex">
+      <Container id="aboutus" maxWidth="lg" className="p-4 mt-5 md:my-10 flex">
         <Box className=" w-full p-2 grid grid-flow-row md:grid-cols-2 justify-center">
           <Box className="p-2 max-w-md mx-auto my-auto ">
             <img
