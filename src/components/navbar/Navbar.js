@@ -1,14 +1,12 @@
 import {
   AppBar,
   Box,
-  Button,
   Divider,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemButton,
-  ListItemText,
   Toolbar,
   Typography,
 } from "@mui/material";
@@ -18,12 +16,6 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 
 const drawerWidth = 240;
-const navItems = [
-  { id: 1, title: "Home" },
-  { id: 2, title: "About" },
-  { id: 3, title: "Services" },
-  { id: 4, title: "Contact" },
-];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);

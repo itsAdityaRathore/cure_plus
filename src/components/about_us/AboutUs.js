@@ -1,4 +1,4 @@
-import { Container, Stack, Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import "./AboutUs.css";
@@ -14,6 +14,7 @@ function AboutUs() {
           <img
             className="dr-img"
             src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+            alt="dr picture"
           ></img>
         </Box>
         <Box
