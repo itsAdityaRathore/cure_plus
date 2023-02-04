@@ -1,0 +1,150 @@
+.faq {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 12%;
+}
+.faq__title {
+  margin: 0;
+  padding-bottom: 5%;
+  color: rgb(95, 92, 92);
+  font-size: 32px;
+  line-height: 32px;
+}
+.faq__question {
+  max-width: 350px;
+  width: 100%;
+  border-bottom: 0px solid lightgrey;
+}
+.faq__question-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.faq__question-button::after {
+  content: url(../../images/icon-arrow-down.svg);
+  margin-right: 17px;
+  transform: rotate(90deg);
+}
+
+.faq__question-button:hover {
+  color: steelblue;
+}
+
+.faq__desc {
+  padding-right: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+}
+
+/* Animation */
+.faq__desc.show-description {
+  height: fit-content;
+  margin-bottom: 15px;
+}
+
+/* Arrows */
+
+/* closed */
+.faq__question-button::after {
+  transition: transform 300ms ease-out;
+}
+
+/* open */
+.font-weight-bold::after {
+  transform: rotate(720deg);
+}
+
+/* Component */
+.component {
+  margin: 0 auto;
+  max-width: 920px;
+  width: 100%;
+  background-color: #ffffff;
+  background-position: -565px -295px;
+  background-repeat: no-repeat;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  display: flex;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12%;
+}
+.faq__question {
+  max-width: 50vw;
+}
+.faq__question-button {
+  width: 50vw;
+  font-size: 13px;
+  line-height: 13px;
+}
+.faq__question-button::after {
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .illustration__woman-desktop {
+    max-width: 120%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* added padding here to mobile container, so illustration__woman-desctop would not be cropped at the top */
+  .container {
+    padding-top: 105px;
+  }
+  .component {
+    max-width: 327px;
+    background-position: top;
+    flex-direction: column;
+  }
+  .illustration__box {
+    display: none;
+  }
+  .illustration__woman-desktop {
+    display: none;
+  }
+  .illustration__woman-mobile {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -105px;
+    left: 12px;
+  }
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 12%;
+  }
+  .faq__question {
+    max-width: 300px;
+  }
+  .faq__question-button {
+    text-align: start;
+
+    width: 300px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .faq__question-button::after {
+    padding-right: 0px;
+  }
+}
