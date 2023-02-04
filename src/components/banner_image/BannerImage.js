@@ -5,14 +5,14 @@ import "./BannerImage.css";
 
 function BannerImage() {
   return (
-    <Box className="banner-box">
+    <Box id="home" className="banner-box">
       <Box
         width="100%"
         className="img"
         sx={{
           display: "flex",
           justifyContent: "center",
-             }}
+        }}
       >
         <AboutUs />
       </Box>

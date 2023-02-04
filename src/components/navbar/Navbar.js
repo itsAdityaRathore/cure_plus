@@ -1,24 +1,21 @@
 import {
   AppBar,
   Box,
-  Button,
   Divider,
   Drawer,
   IconButton,
   List,
   ListItem,
   ListItemButton,
-  ListItemText,
   Toolbar,
   Typography,
-  useScrollTrigger,
 } from "@mui/material";
 import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./Navbar.css";
+import { Link } from "react-scroll";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Services", "About", "Contact"];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -48,14 +45,71 @@ export default function Navbar() {
         CurePlus
       </Typography>
       <Divider />
-      <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center", color: "#000000" }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+      <List sx={{ textAlign: "center" }}>
+        <ListItem disablePadding>
+          <ListItemButton
+            className="w-12/12"
+            sx={{ textAlign: "center", color: "#000000" }}
+          >
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Home
+            </Link>
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton
+            className="w-12/12"
+            sx={{ textAlign: "center", color: "#000000" }}
+          >
+            <Link
+              to="aboutus"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              About
+            </Link>
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton
+            className="w-12/12"
+            sx={{ textAlign: "center", color: "#000000" }}
+          >
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-200}
+              duration={500}
+            >
+              Services
+            </Link>
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton
+            className="w-12/12"
+            sx={{ textAlign: "center", color: "#000000" }}
+          >
+            <Link
+              to="contactus"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
@@ -94,30 +148,32 @@ export default function Navbar() {
               },
             }}
           >
-            <Typography
-              display="inline"
-              variant="h5"
-              component="div"
-              sx={{
-                color: "#05a300",
-                textAlign: { xs: "center", sm: "left", md: "left" },
-              }}
-            >
-              Cure
-            </Typography>
-            <Typography
-              display="inline"
-              variant="h5"
-              component="div"
-              sx={{
-                color: "primary",
-                textAlign: { xs: "center", sm: "left", md: "left" },
-              }}
-            >
-              Plus
-            </Typography>
+            <a href="#home">
+              <Typography
+                display="inline"
+                variant="h5"
+                component="div"
+                sx={{
+                  color: "#05a300",
+                  textAlign: { xs: "center", sm: "left", md: "left" },
+                }}
+              >
+                Cure
+              </Typography>
+              <Typography
+                display="inline"
+                variant="h5"
+                component="div"
+                sx={{
+                  color: "primary",
+                  textAlign: { xs: "center", sm: "left", md: "left" },
+                }}
+              >
+                Plus
+              </Typography>
+            </a>
           </Box>
-          
+
           {/* Navigation Items */}
           <Box
             sx={{
@@ -126,11 +182,55 @@ export default function Navbar() {
               display: { xs: "none", sm: "block" },
             }}
           >
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: "inherit" }}>
-                {item}
-              </Button>
-            ))}
+            <ul
+              className="flex w-11/12 font-medium text-base cursor-pointer"
+              sx={{ color: "inherit" }}
+            >
+              <li className="mx-2">
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="mx-2">
+                <Link
+                  to="aboutus"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  About
+                </Link>
+              </li>
+              <li className="mx-2">
+                <Link
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  offset={-200}
+                  duration={500}
+                >
+                  Services
+                </Link>
+              </li>
+              <li className="mx-2">
+                <Link
+                  to="contactus"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
           </Box>
         </Toolbar>
       </AppBar>

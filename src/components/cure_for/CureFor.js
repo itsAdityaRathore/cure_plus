@@ -139,7 +139,7 @@ export default CureFor;
 function CureForCard({ title, description, icon }) {
   return (
     <>
-      <Box className="mt-5">
+      <Box id="services" className="mt-5">
         <Paper
           elevation="5"
           className="py-4 px-5 text-center rounded-xl m-5 bg-gradient-to-b from-teal-50 lg:h-64 md:h-52 sm:h-56"
