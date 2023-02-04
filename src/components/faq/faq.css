@@ -35,7 +35,7 @@
   color: steelblue;
 }
 .faq__desc {
-  padding-right: 17px;
+  padding-right: 10%;
   margin-top: 0;
   margin-bottom: 0;
   height: 0;
@@ -45,7 +45,7 @@
 
 /* Animation */
 .faq__desc.show-description {
-  height: 3rem;
+  height: fit-content;
   margin-bottom: 15px;
 }
 
@@ -90,10 +90,10 @@ html {
   padding-bottom: 48px;
 }
 .faq__question {
-  max-width: 40vw;
+  max-width: 50vw;
 }
 .faq__question-button {
-  width: 40vw;
+  width: 50vw;
   font-size: 13px;
   line-height: 13px;
 }
