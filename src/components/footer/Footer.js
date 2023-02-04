@@ -4,6 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { MdCopyright } from "react-icons/md";
+import Map from "../maps/Map";
 
 function Footer() {
   return (
@@ -21,7 +22,7 @@ function Footer() {
               </h5>
             </Paper>
           </Box>
-          <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 mx-1 ">
+          <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 mx-1">
             <Paper
               elevation={0}
               className=" bg-transparent text-white py-1 px-2 "
@@ -52,9 +53,11 @@ function Footer() {
               </h3>
             </Paper>
           </Box>
-          <Paper elevation={0} className=" text-white p-1 mx-1 my-2 max-h-96 ">
-            MAP
-          </Paper>
+          <Box className="lg:col-span-1 md:col-span-1 col-span-3 my-1 mx-1 bg-red-800 ">
+            <Paper elevation={0} className=" text-black p-1 mx-1 my-1">
+              <Map />
+            </Paper>
+          </Box>
         </Box>
         <Box className="bg-transparent  p-2 flex justify-center">
           <h3 className="flex text-sm  items-center">
