@@ -11,26 +11,22 @@ import Accordion from "./components/faq/Accordion";
 
 const questionsAnswers = [
   {
-    question: "How many team members can I invite?",
+    question: "Where does Dr. Sweety Sah practice?",
     answer:
-      "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
+      "Dr. Sweety Sah practices at Cure Plus Homeopathy Clinic - Mahadevapura. The doctor also provides online video consultation through Practo.",
   },
   {
-    question: "What is the maximum file upload size?",
+    question: "How can I take Dr. Sweety Sah's appointment ?",
     answer:
-      "No more than 2GB. All files in your account must fit your allotted storage space.",
+      "You can take Dr. Sweety Sah's appointment online through Practo for video consultation with the doctor.",
   },
   {
-    question: "How do I reset my password?",
-    answer: `Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.`,
+    question: "Why do patients visit Dr. Sweety Sah?",
+    answer: `Patients frequently visit Dr. Sweety Sah for Skin Tag Treatment, Kidney Stone Treatment, Development Assessment. To see more reasons visit the doctor's profile on Practo.`,
   },
   {
-    question: "Can I cancel my subscription?",
-    answer: `Yes! Send us a message and we’ll process your request no questions asked.`,
-  },
-  {
-    question: "Do you provide additional support?",
-    answer: `Chat and email support is available 24/7. Phone lines are open during normal business hours.Chat and email support is available 24/7. Phone lines are open during normal business hours.Chat and email support is available 24/7. Phone lines are open during normal business hours.`,
+    question: "What is Dr. Sweety Sah's education qualification?",
+    answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
   },
 ];
 
