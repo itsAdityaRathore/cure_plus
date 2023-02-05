@@ -4,12 +4,13 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { MdCopyright } from "react-icons/md";
+import Map from "../map/Maps";
 
 function Footer() {
   return (
     <>
       <footer id="contactus" className="bg-gray-800 text-white pt-10">
-        <Box className=" grid lg:grid-flow-row grid-cols-3 ">
+        <Box className=" grid lg:grid-flow-row grid-cols-4 ">
           <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 px-1 mx-1 h-min">
             <Paper elevation={0} className=" bg-transparent px-2 py-1">
               <Typography className="font-semibold lg:text-xl text-base">
@@ -21,7 +22,7 @@ function Footer() {
               </h5>
             </Paper>
           </Box>
-          <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 mx-1 ">
+          <Box className="lg:col-span-1 md:col-span-3 col-span-4 my-1 mx-1 ">
             <Paper
               elevation={0}
               className=" bg-transparent text-white py-1 px-2 "
@@ -52,9 +53,12 @@ function Footer() {
               </h3>
             </Paper>
           </Box>
-          <Paper elevation={0} className=" text-white p-1 mx-1 my-2 max-h-96 ">
-            MAP
-          </Paper>
+          <Box className="lg:col-span-2 md:col-span-4 col-span-4 my-1 mx-1">
+            <Typography className="font-semibold text-base text-blue-500 lg:pl-9 sm:pl-2">
+              COME DO VISIT US
+            </Typography>
+            <Map />
+          </Box>
         </Box>
         <Box className="bg-transparent  p-2 flex justify-center">
           <h3 className="flex text-sm  items-center">
