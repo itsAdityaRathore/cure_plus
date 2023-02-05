@@ -54,7 +54,7 @@ function Footer() {
             </Paper>
           </Box>
           <Box className="lg:col-span-2 md:col-span-4 col-span-4 my-1 mx-1">
-            <Typography className="font-semibold text-base text-blue-500 pl-3">
+            <Typography className="font-semibold text-base text-blue-500 pl-3 lg:pl-9">
               COME DO VISIT US
             </Typography>
             <Map />
