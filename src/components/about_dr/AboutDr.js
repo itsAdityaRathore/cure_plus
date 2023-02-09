@@ -1,6 +1,38 @@
 import CheckCircleOutlineOutlinedIcon from "@mui/icons-material/CheckCircleOutlineOutlined";
-import { Box, Container, Paper, Typography } from "@mui/material";
+import { Box, Container, Paper, Typography, styled } from "@mui/material";
 import React from "react";
+
+const Paperitem = styled(Paper)`
+  :hover {
+    box-shadow: 1px 1px 15px #0000006c;
+    animation: unset;
+    margin-top :1vh;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  .menu
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    max-width: 100%;
+    height; 100%;
+  }
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.1);
+  transform-origin: center center 0px;
+  transition: all 0.5s ease-out;
+  animation-name: animate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform: perspective(1000px) rotateX(25deg) rotateY(4deg) rotateZ(-5deg);
+  z-index: 1;
+
+`;
 
 function AboutDr() {
   return (
@@ -30,7 +62,7 @@ function AboutDr() {
             </Box>
 
             <h3 className="lg:text-2xl text-left text-xl font-medium font-sans">
-              Welcome To Doctorate Central Hospital
+              Welcome To CurePlus Homeopathy
             </h3>
             <p className="text-lg py-5  leading-8 text-justify font-sans">
               Our team of highly trained professionals uses the latest healing

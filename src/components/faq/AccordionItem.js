@@ -9,7 +9,7 @@ const AccordionItem = ({
   index,
   onClick,
 }) => (
-  <div className="faq__question font-poppins" key={item.question}>
+  <div className="faq__question font-sans" key={item.question}>
     <dt>
       <button
         aria-expanded={ariaExpanded}

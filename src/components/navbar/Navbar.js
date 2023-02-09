@@ -183,7 +183,7 @@ export default function Navbar() {
             }}
           >
             <ul
-              className="flex w-11/12 font-medium text-base cursor-pointer"
+              className="flex w-11/12  text-base cursor-pointer"
               sx={{ color: "inherit" }}
             >
               <li className="mx-2">

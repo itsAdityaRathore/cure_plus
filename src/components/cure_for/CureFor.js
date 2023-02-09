@@ -1,19 +1,58 @@
 import { Box, Container, Paper, styled } from "@mui/material";
 import React from "react";
 
+// const Paperitem = styled(Paper)`
+//   :hover {
+//     box-shadow: 1px 1px 15px #0000006c;
+//     animation: unset;
+//     margin-top :1vh;
+//     transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+//   .menu
+//     display: flex;
+//     justify-content: space-around;
+//     align-items :center;
+//     max-width: 100%;
+//     height; 100%;
+//   }
+//   width: 200px;
+//   height: 300px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 20vh;
+//   margin-bottom: 50px;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.1);
+//   transform-origin: center center 0px;
+//   transition: all 0.5s ease-out;
+//   animation-name: animate;
+//   animation-duration: 3s;
+//   animation-iteration-count: infinite;
+//   transform: perspective(1000px) rotateX(25deg) rotateY(4deg) rotateZ(-5deg);
+//   z-index: 1;
+
+// `;
 const Paperitem = styled(Paper)`
   :hover {
-    box-shadow: 1px 1px 15px #0000006c;
+    box-shadow: 6px 10px 15px #0000001c;
   }
+  // :hover {
+  //   box-shadow: 1px 1px 15px #0000006c;
+  // }
   border-radius: 12px;
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  height: 50vh;
+  // border: solid;
+  // border-width: thin;
+  // border-color: #0000001c;
+  box-shadow: 1px 2px 6px #0000001c;
+  // height: 50vh;
 `;
-Paperitem.defaultProps = { elevation: 8 };
+
+Paperitem.defaultProps = { elevation: 0 };
 
 var cureForlist = [
   {
@@ -75,13 +114,7 @@ var cureForlist = [
 function CureFor() {
   return (
     <>
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <Box className="bg-slate-100">
+      <Box className="bg-slate-50">
         <Box className=" text-center pt-20 pb-8">
           <h3 className="font-medium text-3xl text-slate-700 mx-auto">
             We have cure for..
@@ -140,21 +173,18 @@ function CureForCard({ title, description, icon }) {
   return (
     <>
       <Box id="services" className="mt-5">
-        <Paper
-          elevation="5"
-          className="py-4 px-5 text-center rounded-xl m-5 bg-gradient-to-b from-teal-50 lg:h-64 md:h-52 sm:h-56"
-        >
+        <Paperitem className="py-4 px-5 text-center rounded-xl m-5 bg-gradient-to-b from-teal-50 lg:h-64 md:h-52 sm:h-56">
           <Box
             width={100}
             height={100}
             className="relative mx-auto  bg-gradient-to-b
-             from-yellow-200 to-white rounded-full -mt-12 overflow-hidden shadow-md shadow-slate-400"
+             from-pink-200 to-teal-50 rounded-full -mt-12 overflow-hidden shadow-none shadow-slate-400"
           >
             <img alt="img" className="object-cover fill p-6" src={icon} />
           </Box>
-          <h4 className="text-xl py-4 font-poppins">{title}</h4>
-          <p className="max-w-md mx-auto">{description}</p>
-        </Paper>
+          <h4 className="text-xl py-4 font-sans">{title}</h4>
+          <p className="max-w-md mx-auto text-sm">{description}</p>
+        </Paperitem>
       </Box>
     </>
   );

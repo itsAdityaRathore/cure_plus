@@ -14,7 +14,7 @@ function AboutUs() {
           <img
             className="dr-img"
             src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
-            alt="dr picture"
+            alt="doctor"
           ></img>
         </Box>
         <Box
@@ -23,18 +23,16 @@ function AboutUs() {
         >
           <Typography
             sx={{ typography: { md: "h4", sm: "h5", xs: "h6" } }}
-            fontFamily={"inherit"}
             color="#ffffff"
           >
             Cure Plus Homeopathic Clinic
           </Typography>
-          <Typography variant="body1" fontFamily={"inherit"} color="#ffffff">
+          <Typography color="#ffffff">
             Don’t be nervous, thinking that your disease is incurable, Just call
             us and get a FREE expert advice.
           </Typography>
           <Typography
             variant="body1"
-            fontFamily={"inherit"}
             color="#ffffff"
             sx={{ wordSpacing: "8px" }}
           >

@@ -9,12 +9,12 @@ import Map from "../map/Maps";
 function Footer() {
   return (
     <>
-      <footer id="contactus" className="bg-gray-800 text-white pt-10">
-        <Box className=" grid lg:grid-flow-row grid-cols-4 ">
-          <Box className="lg:col-span-1 md:col-span-2 col-span-3 my-1 px-1 mx-1 h-min">
+      <footer id="contactus" className="bg-gray-800 text-white pt-6 pb-5">
+        <Box className=" grid lg:grid-flow-row grid-cols-3 px-10 ">
+          <Box className="lg:col-span-1 md:col-span-2 col-span-3 pt-8 h-min">
             <Paper elevation={0} className=" bg-transparent px-2 py-1">
               <Typography className="font-semibold lg:text-xl text-base">
-                <span className="text-blue-500">CURE</span>
+                <span className="text-green-500">CURE</span>
                 <span className="text-white">PLUS</span>
               </Typography>
               <h5 class="text-base mt-0 mb-2 text-gray-100">
@@ -22,12 +22,12 @@ function Footer() {
               </h5>
             </Paper>
           </Box>
-          <Box className="lg:col-span-1 md:col-span-3 col-span-4 my-1 mx-1 ">
+          <Box className="lg:col-span-1 md:col-span-2 col-span-3 pt-8 ">
             <Paper
               elevation={0}
               className=" bg-transparent text-white py-1 px-2 "
             >
-              <Typography className="font-semibold text-base text-blue-500">
+              <Typography className="font-semibold text-base text-green-500">
                 CONTACT US
               </Typography>
               <h3 className="flex text-sm my-4 ">
@@ -53,14 +53,14 @@ function Footer() {
               </h3>
             </Paper>
           </Box>
-          <Box className="lg:col-span-2 md:col-span-4 col-span-4 my-1 mx-1">
-            <Typography className="font-semibold text-base text-blue-500 pl-3 lg:pl-9">
+          <Box className="lg:col-span-1 md:col-span-2 col-span-3 pt-8">
+            <Typography className="font-semibold text-base text-green-500 pb-4 pl-4">
               COME DO VISIT US
             </Typography>
             <Map />
           </Box>
         </Box>
-        <Box className="bg-transparent  p-2 flex justify-center">
+        <Box className="bg-transparent  p-2 flex justify-center pt-10">
           <h3 className="flex text-sm  items-center">
             <span>
               <MdCopyright className="text-2xl mx-1" />
