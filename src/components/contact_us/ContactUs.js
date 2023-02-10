@@ -22,6 +22,14 @@ const IconBoxRound = styled(Box)({
 function ContactUs() {
   return (
     <>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <Container
         maxWidth="md"
         className="contact-us-box"
@@ -40,17 +48,12 @@ function ContactUs() {
               <PhoneInTalkOutlinedIcon />
             </IconBoxRound>
             <Box className="contact-us-box-text">
-              <Typography
-                marginBottom="3px"
-                variant="subtitle2"
-                fontFamily={"inherit"}
-                color="#9e9e9e"
-              >
+              <Typography variant="h5" marginBottom="3px" color="#9e9e9e">
                 Phone No.
               </Typography>
               <Typography
-                variant="inherit"
-                fontFamily={"inherit"}
+                variant="body2"
+                className="font-semibold"
                 color="#353535"
               >
                 +91-7676808586
@@ -59,25 +62,29 @@ function ContactUs() {
           </Box>
           <Box
             flex={1}
-            className="contact-us-box-item"
-            sx={{ backgroundColor: "#599c2a", color: "#fff" }}
+            className="contact-us-box-item bg-green-600"
+            sx={{ color: "#fff" }}
           >
             <IconBoxRound sx={{ color: "#fff", borderColor: "#ffffff55" }}>
               <AccessAlarmRoundedIcon />
             </IconBoxRound>
             <Box className="contact-us-box-text">
               <Typography
-                marginBottom="3px"
-                variant="subtitle2"
-                fontFamily={"inherit"}
+                variant="h5"
+                marginBottom="5px"
+                sx={{ color: "#fff" }}
               >
                 Open Hours
               </Typography>
               <Stack>
-                <Typography variant="inherit" fontFamily={"inherit"}>
+                <Typography variant="body2" className="font-semibold">
                   11:00 AM - 12:30 PM
                 </Typography>
-                <Typography v variant="inherit" fontFamily={"inherit"}>
+                <Typography
+                  variant="body2"
+                  lineHeight={2}
+                  className="font-semibold"
+                >
                   5:30 AM - 8:00 PM
                 </Typography>
               </Stack>
@@ -92,17 +99,13 @@ function ContactUs() {
               <LocationOnOutlinedIcon />
             </IconBoxRound>
             <Box className="contact-us-box-text">
-              <Typography
-                marginBottom="3px"
-                variant="subtitle2"
-                fontFamily={"inherit"}
-                color="#9e9e9e"
-              >
+              <Typography marginBottom="3px" variant="h5" color="#9e9e9e">
                 Our Address
               </Typography>
               <Typography
-                variant="inherit"
-                fontFamily={"inherit"}
+                variant="body2"
+                lineHeight={1.5}
+                className="font-semibold"
                 color="#353535"
               >
                 Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,

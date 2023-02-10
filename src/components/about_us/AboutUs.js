@@ -22,20 +22,19 @@ function AboutUs() {
           sx={{ justifySelf: "center" }}
         >
           <Typography
-            sx={{ typography: { md: "h4", sm: "h5", xs: "h6" } }}
+            sx={{ typography: { lg: "h1", md: "h2", sm: "h2", xs: "h3" } }}
             color="#ffffff"
           >
             Cure Plus Homeopathic Clinic
           </Typography>
-          <Typography color="#ffffff">
+          <Typography
+            sx={{ typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" } }}
+            color="#ffffff"
+          >
             Don’t be nervous, thinking that your disease is incurable, Just call
             us and get a FREE expert advice.
           </Typography>
-          <Typography
-            variant="body1"
-            color="#ffffff"
-            sx={{ wordSpacing: "8px" }}
-          >
+          <Typography variant="h5" color="#ffffff" sx={{ wordSpacing: "5px" }}>
             - Go Green Inside
           </Typography>
         </Box>

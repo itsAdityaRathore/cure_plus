@@ -1,4 +1,4 @@
-import { Box, Container, Paper, styled } from "@mui/material";
+import { Box, Container, Paper, styled, Typography } from "@mui/material";
 import React from "react";
 
 // const Paperitem = styled(Paper)`
@@ -34,7 +34,8 @@ import React from "react";
 // `;
 const Paperitem = styled(Paper)`
   :hover {
-    box-shadow: 6px 10px 15px #0000001c;
+    box-shadow: 6px 10px 15px #0000002c;
+    // padding-top: 2px;
   }
   // :hover {
   //   box-shadow: 1px 1px 15px #0000006c;
@@ -48,7 +49,7 @@ const Paperitem = styled(Paper)`
   // border: solid;
   // border-width: thin;
   // border-color: #0000001c;
-  box-shadow: 1px 2px 6px #0000001c;
+  box-shadow: 1px 2px 6px #0000002c;
   // height: 50vh;
 `;
 
@@ -114,11 +115,9 @@ var cureForlist = [
 function CureFor() {
   return (
     <>
-      <Box className="bg-slate-50">
+      <Box className="bg-slate-0">
         <Box className=" text-center pt-20 pb-8">
-          <h3 className="font-medium text-3xl text-slate-700 mx-auto">
-            We have cure for..
-          </h3>
+          <Typography variant="h1">We have cure for..</Typography>
         </Box>
         <Container className="p-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-0 pb-20">
           <CureForCard
@@ -182,8 +181,12 @@ function CureForCard({ title, description, icon }) {
           >
             <img alt="img" className="object-cover fill p-6" src={icon} />
           </Box>
-          <h4 className="text-xl py-4 font-sans">{title}</h4>
-          <p className="max-w-md mx-auto text-sm">{description}</p>
+          <Typography variant="h4" className=" py-4 ">
+            {title}
+          </Typography>
+          <Typography variant="subtitle2" className="max-w-md mx-auto ">
+            {description}
+          </Typography>
         </Paperitem>
       </Box>
     </>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AccordionItem from "./AccordionItem";
-import { Paper } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 
 const Accordion = ({ questionsAnswers }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -27,7 +27,9 @@ const Accordion = ({ questionsAnswers }) => {
 
   return (
     <div className="faq">
-      <h1 className="faq__title">FAQ</h1>
+      <Typography variant="h2" className="faq__title pb-14">
+        Frequently Asked Questions
+      </Typography>
       <dl className="faq__list">{renderedQuestionsAnswers}</dl>
     </div>
   );

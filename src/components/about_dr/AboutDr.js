@@ -53,37 +53,33 @@ function AboutDr() {
             <Box className="flex">
               <img
                 alt="pulse"
-                className="h-20 w-15 mb-0 "
+                className="h-24 w-15 mb-0 "
                 src="https://t3.ftcdn.net/jpg/01/34/24/46/240_F_134244635_QdTMgtjMfLQealOg6WQSEc0UaRrxSrhj.jpg"
               />
-              <Typography className="lg:text-3xl text-left text-2xl my-auto font-bold  font-sans">
-                About US
-              </Typography>
+              <Typography variant="h1">About US</Typography>
             </Box>
 
-            <h3 className="lg:text-2xl text-left text-xl font-medium font-sans">
-              Welcome To CurePlus Homeopathy
-            </h3>
-            <p className="text-lg py-5  leading-8 text-justify font-sans">
+            <Typography variant="h3">Welcome To CurePlus Homeopathy</Typography>
+            <Typography variant="subtitle1" className="pt-6">
               Our team of highly trained professionals uses the latest healing
               technologies to restore you to pain-free health quickly and
               easily.
-            </p>
-            <Paper className="bg-green-600 rounded-md p-2 justify-center h-100 my-8">
-              <Container className="grid lg:grid-cols-2 gap-2 p-2 my-5 h-5/6">
-                <Box className="p-2 text-left text-xl font-semibold font-sans text-white flex">
+            </Typography>
+            <Paper className="bg-green-600 rounded-md px-6 py-10 justify-center h-54 my-8 text-base font-semibold ">
+              <Container className="grid lg:grid-cols-2 gap-x-7  gap-y-5">
+                <Box className="text-left   text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
                   20+ years of excellence
                 </Box>
-                <Box className="p-2 text-left  text-xl font-semibold font-sans text-white flex">
+                <Box className=" text-left    text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
                   Multi Speciality
                 </Box>
-                <Box className="p-2 text-left text-xl font-semibold font-sans text-white flex">
+                <Box className=" text-left   text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
                   24 Hours Medical Service
                 </Box>
-                <Box className="p-2 text-left text-xl font-semibold font-sans text-white flex ">
+                <Box className=" text-left   text-white flex ">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
                   Professional Experts
                 </Box>
