@@ -115,7 +115,7 @@ var cureForlist = [
 function CureFor() {
   return (
     <>
-      <Box className="bg-slate-0">
+      <Box className="bg-gradient-to-b from-slate-100 to-white">
         <Box className=" text-center pt-20 pb-8">
           <Typography variant="h1">We have cure for..</Typography>
         </Box>
@@ -172,7 +172,7 @@ function CureForCard({ title, description, icon }) {
   return (
     <>
       <Box id="services" className="mt-5">
-        <Paperitem className="py-4 px-5 text-center rounded-xl m-5 bg-gradient-to-b from-teal-50 lg:h-64 md:h-52 sm:h-56">
+        <Paperitem className="py-4 px-5 text-center rounded-xl m-5  lg:h-64 md:h-52 sm:h-56">
           <Box
             width={100}
             height={100}
