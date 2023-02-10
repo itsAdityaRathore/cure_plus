@@ -1,5 +1,24 @@
 import React from "react";
-import { Button, Paper, Typography } from "@mui/material";
+import { Button, Paper, styled, Typography } from "@mui/material";
+
+// const Paper = styled(Paper)`
+//   z-index: 1;
+//   postion: absolute;
+//   animation-name: animate;
+//   animation-duration: 3s;
+//   animation-iteration-count: infinite;
+//   @keyframes animate {
+//     0% {
+//       margin-top: 20vh;
+//     }
+//     50% {
+//       margin-top: 18vh;
+//     }
+//     100% {
+//       margin-top: 20vh;
+//     }
+//   }
+// `;
 
 export default function ContactUsBanner() {
   return (
