@@ -1,13 +1,18 @@
 import "./App.css";
 import * as React from "react";
 import Navbar from "./components/navbar/Navbar";
-import { StyledEngineProvider } from "@mui/material";
+import {
+  StyledEngineProvider,
+  ThemeProvider,
+  createTheme,
+} from "@mui/material";
 import BannerImage from "./components/banner_image/BannerImage";
 import ContactUs from "./components/contact_us/ContactUs";
 import Footer from "./components/footer/Footer";
 import CureFor from "./components/cure_for/CureFor";
 import AboutDr from "./components/about_dr/AboutDr";
 import Accordion from "./components/faq/Accordion";
+import theme from "./theme/theme";
 
 const questionsAnswers = [
   {
@@ -32,15 +37,17 @@ const questionsAnswers = [
 
 function App() {
   return (
-    <StyledEngineProvider injectFirst>
-      <Navbar />
-      <BannerImage />
-      <ContactUs />
-      <AboutDr />
-      <CureFor />
-      <Accordion questionsAnswers={questionsAnswers} />
-      <Footer />
-    </StyledEngineProvider>
+    <ThemeProvider theme={createTheme(theme)}>
+      <StyledEngineProvider injectFirst>
+        <Navbar />
+        <BannerImage />
+        <ContactUs />
+        <AboutDr />
+        <CureFor />
+        <Accordion questionsAnswers={questionsAnswers} />
+        <Footer />
+      </StyledEngineProvider>
+    </ThemeProvider>
   );
 }
 

@@ -151,7 +151,7 @@ export default function Navbar() {
             <a href="#home">
               <Typography
                 display="inline"
-                variant="h5"
+                variant="h2"
                 component="div"
                 sx={{
                   color: "#05a300",
@@ -162,7 +162,7 @@ export default function Navbar() {
               </Typography>
               <Typography
                 display="inline"
-                variant="h5"
+                variant="h2"
                 component="div"
                 sx={{
                   color: "primary",
@@ -183,7 +183,7 @@ export default function Navbar() {
             }}
           >
             <ul
-              className="flex w-11/12 font-medium text-base cursor-pointer"
+              className="flex w-11/12  text-base cursor-pointer"
               sx={{ color: "inherit" }}
             >
               <li className="mx-2">
