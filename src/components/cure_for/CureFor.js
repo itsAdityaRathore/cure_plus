@@ -1,5 +1,7 @@
 import { Box, Container, Paper, styled, Typography } from "@mui/material";
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // const Paperitem = styled(Paper)`
 //   :hover {
@@ -54,7 +56,7 @@ const Paperitem = styled(Paper)`
 `;
 
 Paperitem.defaultProps = { elevation: 0 };
-
+AOS.init();
 var cureForlist = [
   {
     title: "Skin",
@@ -115,7 +117,10 @@ var cureForlist = [
 function CureFor() {
   return (
     <>
-      <Box className="bg-gradient-to-b from-slate-100 to-white">
+      <Box
+        data-aos="fade-up"
+        className="bg-gradient-to-b from-slate-100 to-white"
+      >
         <Box className=" text-center pt-20 pb-8">
           <Typography variant="h1">We have cure for..</Typography>
         </Box>
@@ -171,7 +176,7 @@ export default CureFor;
 function CureForCard({ title, description, icon }) {
   return (
     <>
-      <Box id="services" className="mt-5">
+      <Box data-aos="zoom-in" id="services" className="mt-5">
         <Paperitem className="py-4 px-5 text-center rounded-xl m-5  lg:h-64 md:h-52 sm:h-56">
           <Box
             width={100}

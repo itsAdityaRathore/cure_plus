@@ -10,7 +10,13 @@ function AboutUs() {
         direction={{ md: "row" }}
         sx={{ marginY: { md: "0rem", xs: "2rem" } }}
       >
-        <Box className="about-us-content" display="flex" sx={{}}>
+        <Box
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          className="about-us-content drop-shadow"
+          display="flex"
+          sx={{}}
+        >
           <img
             className="dr-img"
             src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
@@ -18,6 +24,8 @@ function AboutUs() {
           ></img>
         </Box>
         <Box
+          data-aos="zoom-out"
+          data-aos-duration="1000"
           className="about-us-content about-us-text"
           sx={{ justifySelf: "center" }}
         >

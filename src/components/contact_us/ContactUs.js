@@ -5,6 +5,8 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import React from "react";
 import "./ContactUs.css";
 import { green } from "@mui/material/colors";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const IconBoxRound = styled(Box)({
   margin: 10,
@@ -18,7 +20,7 @@ const IconBoxRound = styled(Box)({
   color: green[600],
   borderColor: "rgba(0 0 0 / 25%)",
 });
-
+AOS.init();
 function ContactUs() {
   return (
     <>
@@ -31,6 +33,7 @@ function ContactUs() {
         />
       </head>
       <Container
+        data-aos="zoom-in"
         maxWidth="md"
         className="contact-us-box"
         sx={{

@@ -14,7 +14,6 @@ import AboutDr from "./components/about_dr/AboutDr";
 import Accordion from "./components/faq/Accordion";
 import theme from "./theme/theme";
 import ContactUsBanner from "./components/banner/contact_us_banner";
-
 const questionsAnswers = [
   {
     question: "Where does Dr. Sweety Sah practice?",
@@ -35,7 +34,6 @@ const questionsAnswers = [
     answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
   },
 ];
-
 function App() {
   return (
     <ThemeProvider theme={createTheme(theme)}>
