@@ -1,5 +1,7 @@
 import CheckCircleOutlineOutlinedIcon from "@mui/icons-material/CheckCircleOutlineOutlined";
 import { Box, Container, Paper, Typography, styled } from "@mui/material";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React from "react";
 
 const Paperitem = styled(Paper)`
@@ -34,12 +36,14 @@ const Paperitem = styled(Paper)`
 
 `;
 
+AOS.init();
+
 function AboutDr() {
   return (
     <>
       <Container id="aboutus" maxWidth="lg" className="p-4 mt-5 md:my-10 flex">
         <Box className=" w-full p-2 grid grid-flow-row md:grid-cols-2 justify-center">
-          <Box className="p-2 max-w-md mx-auto my-auto ">
+          <Box data-aos="fade-right" className="p-2 max-w-md mx-auto my-auto ">
             <img
               alt="dr"
               className="mx-auto "
@@ -47,6 +51,7 @@ function AboutDr() {
             ></img>
           </Box>
           <Paper
+            data-aos="zoom-in"
             elevation={0}
             className="bg-transparent py-4 px-4 my-1 md:w-12/12  md:mx-1"
           >
@@ -65,7 +70,10 @@ function AboutDr() {
               technologies to restore you to pain-free health quickly and
               easily.
             </Typography>
-            <Paper className="bg-green-600 rounded-md px-6 py-10 justify-center h-54 my-8 text-base font-semibold ">
+            <Paper
+              data-aos="flip-up"
+              className="bg-green-600 rounded-md px-6 py-10 justify-center h-54 my-8 text-base font-semibold "
+            >
               <Container className="grid lg:grid-cols-2 gap-x-7  gap-y-5">
                 <Box className="text-left   text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
