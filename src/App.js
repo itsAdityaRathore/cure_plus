@@ -35,7 +35,6 @@ const questionsAnswers = [
     answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
   },
 ];
-import Blog from "./components/blogs/Blog";
 
 function App() {
   return (
@@ -46,7 +45,6 @@ function App() {
       <AboutDr />
       <CureFor />
       <Blog />
-
       <Footer />
     </StyledEngineProvider>
   );
