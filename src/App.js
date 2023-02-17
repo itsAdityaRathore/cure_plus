@@ -46,7 +46,7 @@ function App() {
       <AboutDr />
       <CureFor />
       <Blog />
-      <Blog />
+
       <Footer />
     </StyledEngineProvider>
   );
