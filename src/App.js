@@ -11,6 +11,7 @@ import ContactUs from "./components/contact_us/ContactUs";
 import Footer from "./components/footer/Footer";
 import CureFor from "./components/cure_for/CureFor";
 import AboutDr from "./components/about_dr/AboutDr";
+import Blog from "./components/blogs/Blog";
 import Accordion from "./components/faq/Accordion";
 import theme from "./theme/theme";
 import ContactUsBanner from "./components/banner/contact_us_banner";
@@ -34,20 +35,18 @@ const questionsAnswers = [
     answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
   },
 ];
+
 function App() {
   return (
-    <ThemeProvider theme={createTheme(theme)}>
-      <StyledEngineProvider injectFirst>
-        <Navbar />
-        <BannerImage />
-        <ContactUs />
-        <AboutDr />
-        <CureFor />
-        <ContactUsBanner />
-        <Accordion questionsAnswers={questionsAnswers} />
-        <Footer />
-      </StyledEngineProvider>
-    </ThemeProvider>
+    <StyledEngineProvider injectFirst>
+      <Navbar />
+      <BannerImage />
+      <ContactUs />
+      <AboutDr />
+      <CureFor />
+      <Blog />
+      <Footer />
+    </StyledEngineProvider>
   );
 }
 
