@@ -14,6 +14,7 @@ import AboutDr from "./components/about_dr/AboutDr";
 import Accordion from "./components/faq/Accordion";
 import theme from "./theme/theme";
 import ContactUsBanner from "./components/banner/contact_us_banner";
+import Specialist from "./components/specialist/Specialist";
 const questionsAnswers = [
   {
     question: "Where does Dr. Sweety Sah practice?",
@@ -44,6 +45,7 @@ function App() {
         <AboutDr />
         <CureFor />
         <ContactUsBanner />
+        <Specialist />
         <Accordion questionsAnswers={questionsAnswers} />
         <Footer />
       </StyledEngineProvider>
