@@ -14,8 +14,8 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import cureplus from "./../../images/cureplus-logo.png";
-import cureplusWhite from "./../../images/cureplus-logo-white.png";
+import cureplus from "./../../images/cureplus-old.png";
+import cureplusWhite from "./../../images/cureplus-white.png";
 
 const drawerWidth = 240;
 
@@ -153,7 +153,7 @@ export default function Navbar() {
             <img
               alt="logo"
               src={colorChange ? cureplus : cureplusWhite}
-              width="150"
+              width="100"
             />
             {/* <a href="#home">
               <Typography
