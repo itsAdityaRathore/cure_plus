@@ -56,7 +56,7 @@ function ContactUs() {
                 className="font-semibold"
                 color="#353535"
               >
-                +91-7676808586
+                +91-7406125000
               </Typography>
             </Box>
           </Box>
@@ -108,8 +108,8 @@ function ContactUs() {
                 className="font-semibold"
                 color="#353535"
               >
-                Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,
-                Chinappa Layout, Mahadevpura, Bengaluru, Karnatka - 560048
+                CurePlus Homeopathy, Wing C, Nester Raga, Mahadevpura, Bengaluru
+                - 560048
               </Typography>
             </Box>
           </Box>

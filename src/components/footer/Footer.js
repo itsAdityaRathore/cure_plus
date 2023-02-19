@@ -4,6 +4,8 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { MdCopyright } from "react-icons/md";
+import cureplusWhite from "./../../images/cureplus-logo-white.png";
+
 import Map from "../map/Maps";
 
 function Footer() {
@@ -13,11 +15,12 @@ function Footer() {
         <Box className=" grid lg:grid-flow-row grid-cols-3 px-10 ">
           <Box className="lg:col-span-1 md:col-span-2 col-span-3 pt-8 h-min">
             <Paper elevation={0} className=" bg-transparent px-2 py-1">
-              <Typography variant="h3">
+              <img alt="logo" src={cureplusWhite} width="150" />
+              {/* <Typography variant="h3">
                 <span className="text-green-500">CURE</span>
                 <span className="text-white">PLUS</span>
-              </Typography>
-              <Typography variant="h4" className="text-gray-100">
+              </Typography> */}
+              <Typography variant="h4" className="text-gray-100 p-2">
                 Find us on any of these platforms, we respond 1-2 business days.
               </Typography>
             </Paper>
@@ -35,8 +38,8 @@ function Footer() {
                   <MdOutlineLocationOn className="text-xl mr-4" />
                 </span>
                 <Typography className="max-w-sm">
-                  Shop E, BLOCK-C, Nester Raga, Dr. Puneetha Rajkumar Rd, B,
-                  Chinappa Layout, Mahadevpura, Bengaluru, Karnatka - 560048
+                  CurePlus Homeopathy, Wing C, Nester Raga, Mahadevpura,
+                  Bengaluru, Karnatka - 560048
                 </Typography>
               </Typography>
               <Typography variant="subtitle2" className="flex my-4">
@@ -49,7 +52,7 @@ function Footer() {
                 <span>
                   <MdOutlinePhoneInTalk className="text-xl mr-4" />
                 </span>
-                +91-7676808586
+                +91-7406125000
               </Typography>
             </Paper>
           </Box>

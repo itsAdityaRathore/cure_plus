@@ -61,15 +61,17 @@ function AboutDr() {
 
             <Typography variant="h3">Welcome To CurePlus Homeopathy</Typography>
             <Typography variant="subtitle1" className="pt-6">
-              Our team of highly trained professionals uses the latest healing
-              technologies to restore you to pain-free health quickly and
-              easily.
+              Established in 2011, is dedicated to the mission of creating a
+              happier and healthier society by reviving the Homeopathic sciences
+              through the use of modern technology. Our objective is to help
+              each individual unleash his potential in the two basic realms of
+              human endeavor health and culture.
             </Typography>
             <Paper className="bg-green-600 rounded-md px-6 py-10 justify-center h-54 my-8 text-base font-semibold ">
               <Container className="grid lg:grid-cols-2 gap-x-7  gap-y-5">
                 <Box className="text-left   text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />
-                  20+ years of excellence
+                  12+ years of excellence
                 </Box>
                 <Box className=" text-left    text-white flex">
                   <CheckCircleOutlineOutlinedIcon className="mr-2 mt-1" />

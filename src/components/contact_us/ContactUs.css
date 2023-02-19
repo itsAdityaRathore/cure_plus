@@ -6,15 +6,19 @@
   padding: 1em;
   /* box-shadow: 3px 3px 8px #0000006c; */
   border-radius: 50px;
+  border-radius: 12px;
 }
 
 .contact-us-box-item {
+  margin-inline: 5px;
   display: flex;
   align-items: center;
   justify-content: start;
   min-height: 10vh;
   padding: 0.5rem;
-  box-shadow: 3px 3px 10px #0000006c;
+  /* box-shadow: 3px 3px 10px #0000006c; */
+  box-shadow: 1px 10px 20px #0000002c;
+  border-radius: 12px;
 }
 
 .contact-us-box-text {
