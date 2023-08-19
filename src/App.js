@@ -19,20 +19,20 @@ const questionsAnswers = [
   {
     question: "Where does Dr. Sweety Sah practice?",
     answer:
-      "Dr. Sweety Sah practices at Cure Plus Homeopathy Clinic - Mahadevapura. The doctor also provides online video consultation through Practo.",
+      "Dr. Sweety Sah practices at Cure Plus Homeopathy Clinic - Mahadevapura. The doctor also provides online video consultation.",
   },
   {
     question: "How can I take Dr. Sweety Sah's appointment ?",
     answer:
-      "You can take Dr. Sweety Sah's appointment online through Practo for video consultation with the doctor.",
+      "You can take Dr. Sweety Sah's appointment onlineon call with the doctor.",
   },
   {
     question: "Why do patients visit Dr. Sweety Sah?",
-    answer: `Patients frequently visit Dr. Sweety Sah for Skin Tag Treatment, Kidney Stone Treatment, Development Assessment. To see more reasons visit the doctor's profile on Practo.`,
+    answer: `Patients frequently visit Dr. Sweety Sah for Skin Tag Treatment, Kidney Stone Treatment, Development Assessment.`,
   },
   {
     question: "What is Dr. Sweety Sah's education qualification?",
-    answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK). You can book the doctor through the doctor's profile on Practo.`,
+    answer: `Dr. Sweety Sah has the following qualifications - BHMS, PG HOM (UK).`,
   },
 ];
 function App() {
